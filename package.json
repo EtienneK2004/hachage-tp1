@@ -1,6 +1,6 @@
 {
   "name": "hachage-tp1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "src/server.js",
   "type": "module",
@@ -9,6 +9,9 @@
     "dev": "node --watch src/server.js"
   },
   "keywords": [],
-  "author": "Laurent Giustignano",
-  "license": "ISC"
+  "author": "Laurent Giustignano, Etienne Kita",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
 }
